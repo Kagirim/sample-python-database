@@ -198,7 +198,7 @@ class Connection:
             print(x)
 
 
-db = Connection('localhost', 'kagyrydb', 'mydatabase', 'M-7katerinah')
+db = Connection('host', 'user', 'database', 'password')
 db.server_connection()
 db.db_operation()
 db.display_db()
